@@ -17,8 +17,6 @@
    动态方法解析; +resolveInstanceMethod:/+resolveClassMethod:
    备用接收者; -forwardingTargetForSelector:
    完整转发。 -forwardInvocation:
- 
- 
  */
 #import "ViewController.h"
 #import "Person.h"
