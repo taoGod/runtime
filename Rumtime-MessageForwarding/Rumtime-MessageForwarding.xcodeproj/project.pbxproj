@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2B2CC1A1DCDB65600324CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC191DCDB65600324CEA /* main.m */; };
+		E2B2CC1D1DCDB65600324CEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC1C1DCDB65600324CEA /* AppDelegate.m */; };
+		E2B2CC201DCDB65600324CEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC1F1DCDB65600324CEA /* ViewController.m */; };
+		E2B2CC231DCDB65600324CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B2CC211DCDB65600324CEA /* Main.storyboard */; };
+		E2B2CC251DCDB65600324CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B2CC241DCDB65600324CEA /* Assets.xcassets */; };
+		E2B2CC281DCDB65600324CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B2CC261DCDB65600324CEA /* LaunchScreen.storyboard */; };
+		E2B2CC331DCDB65600324CEA /* Rumtime_MessageForwardingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC321DCDB65600324CEA /* Rumtime_MessageForwardingTests.m */; };
+		E2B2CC3E1DCDB65600324CEA /* Rumtime_MessageForwardingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC3D1DCDB65600324CEA /* Rumtime_MessageForwardingUITests.m */; };
+		E2B2CC4D1DCDB83600324CEA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC4C1DCDB83600324CEA /* Person.m */; };
+		E2B2CC501DCDBB3700324CEA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC4F1DCDBB3700324CEA /* Dog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2B2CC2F1DCDB65600324CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B2CC0D1DCDB65600324CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B2CC141DCDB65600324CEA;
+			remoteInfo = "Rumtime-MessageForwarding";
+		};
+		E2B2CC3A1DCDB65600324CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B2CC0D1DCDB65600324CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B2CC141DCDB65600324CEA;
+			remoteInfo = "Rumtime-MessageForwarding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2B2CC151DCDB65600324CEA /* Rumtime-MessageForwarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumtime-MessageForwarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B2CC191DCDB65600324CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2B2CC1B1DCDB65600324CEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2B2CC1C1DCDB65600324CEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2B2CC1E1DCDB65600324CEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2B2CC1F1DCDB65600324CEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2B2CC221DCDB65600324CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2B2CC241DCDB65600324CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2B2CC271DCDB65600324CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2B2CC291DCDB65600324CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B2CC2E1DCDB65600324CEA /* Rumtime-MessageForwardingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumtime-MessageForwardingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B2CC321DCDB65600324CEA /* Rumtime_MessageForwardingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rumtime_MessageForwardingTests.m; sourceTree = "<group>"; };
+		E2B2CC341DCDB65600324CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B2CC391DCDB65600324CEA /* Rumtime-MessageForwardingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumtime-MessageForwardingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B2CC3D1DCDB65600324CEA /* Rumtime_MessageForwardingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rumtime_MessageForwardingUITests.m; sourceTree = "<group>"; };
+		E2B2CC3F1DCDB65600324CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B2CC4B1DCDB83600324CEA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E2B2CC4C1DCDB83600324CEA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E2B2CC4E1DCDBB3700324CEA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		E2B2CC4F1DCDBB3700324CEA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B2CC121DCDB65600324CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B2CC2B1DCDB65600324CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B2CC361DCDB65600324CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2B2CC0C1DCDB65600324CEA = {
+			isa = PBXGroup;
+			children = (
+				E2B2CC171DCDB65600324CEA /* Rumtime-MessageForwarding */,
+				E2B2CC311DCDB65600324CEA /* Rumtime-MessageForwardingTests */,
+				E2B2CC3C1DCDB65600324CEA /* Rumtime-MessageForwardingUITests */,
+				E2B2CC161DCDB65600324CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B2CC161DCDB65600324CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2CC151DCDB65600324CEA /* Rumtime-MessageForwarding.app */,
+				E2B2CC2E1DCDB65600324CEA /* Rumtime-MessageForwardingTests.xctest */,
+				E2B2CC391DCDB65600324CEA /* Rumtime-MessageForwardingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B2CC171DCDB65600324CEA /* Rumtime-MessageForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2CC4E1DCDBB3700324CEA /* Dog.h */,
+				E2B2CC4F1DCDBB3700324CEA /* Dog.m */,
+				E2B2CC4B1DCDB83600324CEA /* Person.h */,
+				E2B2CC4C1DCDB83600324CEA /* Person.m */,
+				E2B2CC1B1DCDB65600324CEA /* AppDelegate.h */,
+				E2B2CC1C1DCDB65600324CEA /* AppDelegate.m */,
+				E2B2CC1E1DCDB65600324CEA /* ViewController.h */,
+				E2B2CC1F1DCDB65600324CEA /* ViewController.m */,
+				E2B2CC211DCDB65600324CEA /* Main.storyboard */,
+				E2B2CC241DCDB65600324CEA /* Assets.xcassets */,
+				E2B2CC261DCDB65600324CEA /* LaunchScreen.storyboard */,
+				E2B2CC291DCDB65600324CEA /* Info.plist */,
+				E2B2CC181DCDB65600324CEA /* Supporting Files */,
+			);
+			path = "Rumtime-MessageForwarding";
+			sourceTree = "<group>";
+		};
+		E2B2CC181DCDB65600324CEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2CC191DCDB65600324CEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2B2CC311DCDB65600324CEA /* Rumtime-MessageForwardingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2CC321DCDB65600324CEA /* Rumtime_MessageForwardingTests.m */,
+				E2B2CC341DCDB65600324CEA /* Info.plist */,
+			);
+			path = "Rumtime-MessageForwardingTests";
+			sourceTree = "<group>";
+		};
+		E2B2CC3C1DCDB65600324CEA /* Rumtime-MessageForwardingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2CC3D1DCDB65600324CEA /* Rumtime_MessageForwardingUITests.m */,
+				E2B2CC3F1DCDB65600324CEA /* Info.plist */,
+			);
+			path = "Rumtime-MessageForwardingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B2CC141DCDB65600324CEA /* Rumtime-MessageForwarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B2CC421DCDB65600324CEA /* Build configuration list for PBXNativeTarget "Rumtime-MessageForwarding" */;
+			buildPhases = (
+				E2B2CC111DCDB65600324CEA /* Sources */,
+				E2B2CC121DCDB65600324CEA /* Frameworks */,
+				E2B2CC131DCDB65600324CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rumtime-MessageForwarding";
+			productName = "Rumtime-MessageForwarding";
+			productReference = E2B2CC151DCDB65600324CEA /* Rumtime-MessageForwarding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2B2CC2D1DCDB65600324CEA /* Rumtime-MessageForwardingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B2CC451DCDB65600324CEA /* Build configuration list for PBXNativeTarget "Rumtime-MessageForwardingTests" */;
+			buildPhases = (
+				E2B2CC2A1DCDB65600324CEA /* Sources */,
+				E2B2CC2B1DCDB65600324CEA /* Frameworks */,
+				E2B2CC2C1DCDB65600324CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B2CC301DCDB65600324CEA /* PBXTargetDependency */,
+			);
+			name = "Rumtime-MessageForwardingTests";
+			productName = "Rumtime-MessageForwardingTests";
+			productReference = E2B2CC2E1DCDB65600324CEA /* Rumtime-MessageForwardingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2B2CC381DCDB65600324CEA /* Rumtime-MessageForwardingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B2CC481DCDB65600324CEA /* Build configuration list for PBXNativeTarget "Rumtime-MessageForwardingUITests" */;
+			buildPhases = (
+				E2B2CC351DCDB65600324CEA /* Sources */,
+				E2B2CC361DCDB65600324CEA /* Frameworks */,
+				E2B2CC371DCDB65600324CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B2CC3B1DCDB65600324CEA /* PBXTargetDependency */,
+			);
+			name = "Rumtime-MessageForwardingUITests";
+			productName = "Rumtime-MessageForwardingUITests";
+			productReference = E2B2CC391DCDB65600324CEA /* Rumtime-MessageForwardingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B2CC0D1DCDB65600324CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = juliu;
+				TargetAttributes = {
+					E2B2CC141DCDB65600324CEA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					E2B2CC2D1DCDB65600324CEA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2B2CC141DCDB65600324CEA;
+					};
+					E2B2CC381DCDB65600324CEA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2B2CC141DCDB65600324CEA;
+					};
+				};
+			};
+			buildConfigurationList = E2B2CC101DCDB65600324CEA /* Build configuration list for PBXProject "Rumtime-MessageForwarding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B2CC0C1DCDB65600324CEA;
+			productRefGroup = E2B2CC161DCDB65600324CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B2CC141DCDB65600324CEA /* Rumtime-MessageForwarding */,
+				E2B2CC2D1DCDB65600324CEA /* Rumtime-MessageForwardingTests */,
+				E2B2CC381DCDB65600324CEA /* Rumtime-MessageForwardingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B2CC131DCDB65600324CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B2CC281DCDB65600324CEA /* LaunchScreen.storyboard in Resources */,
+				E2B2CC251DCDB65600324CEA /* Assets.xcassets in Resources */,
+				E2B2CC231DCDB65600324CEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B2CC2C1DCDB65600324CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B2CC371DCDB65600324CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B2CC111DCDB65600324CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B2CC201DCDB65600324CEA /* ViewController.m in Sources */,
+				E2B2CC1D1DCDB65600324CEA /* AppDelegate.m in Sources */,
+				E2B2CC501DCDBB3700324CEA /* Dog.m in Sources */,
+				E2B2CC4D1DCDB83600324CEA /* Person.m in Sources */,
+				E2B2CC1A1DCDB65600324CEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B2CC2A1DCDB65600324CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B2CC331DCDB65600324CEA /* Rumtime_MessageForwardingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B2CC351DCDB65600324CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B2CC3E1DCDB65600324CEA /* Rumtime_MessageForwardingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2B2CC301DCDB65600324CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B2CC141DCDB65600324CEA /* Rumtime-MessageForwarding */;
+			targetProxy = E2B2CC2F1DCDB65600324CEA /* PBXContainerItemProxy */;
+		};
+		E2B2CC3B1DCDB65600324CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B2CC141DCDB65600324CEA /* Rumtime-MessageForwarding */;
+			targetProxy = E2B2CC3A1DCDB65600324CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2B2CC211DCDB65600324CEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B2CC221DCDB65600324CEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2B2CC261DCDB65600324CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B2CC271DCDB65600324CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2B2CC401DCDB65600324CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2B2CC411DCDB65600324CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B2CC431DCDB65600324CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rumtime-MessageForwarding/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juliu.Rumtime-MessageForwarding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2B2CC441DCDB65600324CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rumtime-MessageForwarding/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juliu.Rumtime-MessageForwarding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2B2CC461DCDB65600324CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rumtime-MessageForwardingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juliu.Rumtime-MessageForwardingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rumtime-MessageForwarding.app/Rumtime-MessageForwarding";
+			};
+			name = Debug;
+		};
+		E2B2CC471DCDB65600324CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rumtime-MessageForwardingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juliu.Rumtime-MessageForwardingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rumtime-MessageForwarding.app/Rumtime-MessageForwarding";
+			};
+			name = Release;
+		};
+		E2B2CC491DCDB65600324CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rumtime-MessageForwardingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juliu.Rumtime-MessageForwardingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rumtime-MessageForwarding";
+			};
+			name = Debug;
+		};
+		E2B2CC4A1DCDB65600324CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rumtime-MessageForwardingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juliu.Rumtime-MessageForwardingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rumtime-MessageForwarding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B2CC101DCDB65600324CEA /* Build configuration list for PBXProject "Rumtime-MessageForwarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B2CC401DCDB65600324CEA /* Debug */,
+				E2B2CC411DCDB65600324CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B2CC421DCDB65600324CEA /* Build configuration list for PBXNativeTarget "Rumtime-MessageForwarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B2CC431DCDB65600324CEA /* Debug */,
+				E2B2CC441DCDB65600324CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2B2CC451DCDB65600324CEA /* Build configuration list for PBXNativeTarget "Rumtime-MessageForwardingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B2CC461DCDB65600324CEA /* Debug */,
+				E2B2CC471DCDB65600324CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2B2CC481DCDB65600324CEA /* Build configuration list for PBXNativeTarget "Rumtime-MessageForwardingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B2CC491DCDB65600324CEA /* Debug */,
+				E2B2CC4A1DCDB65600324CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B2CC0D1DCDB65600324CEA /* Project object */;
+}
