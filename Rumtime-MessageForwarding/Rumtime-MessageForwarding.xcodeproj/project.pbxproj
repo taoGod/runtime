@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E223D68F1E58367300A26D6B /* UILabel+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D68E1E58367300A26D6B /* UILabel+Swizzling.m */; };
+		E223D6921E58381000A26D6B /* UINavigationItem+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D6911E58381000A26D6B /* UINavigationItem+Swizzling.m */; };
+		E223D6F11E5A878900A26D6B /* ClassAndObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D6F01E5A878900A26D6B /* ClassAndObjectController.m */; };
+		E223D6F41E5A92A300A26D6B /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D6F31E5A92A300A26D6B /* MyClass.m */; };
 		E2B2CC1A1DCDB65600324CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC191DCDB65600324CEA /* main.m */; };
 		E2B2CC1D1DCDB65600324CEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC1C1DCDB65600324CEA /* AppDelegate.m */; };
 		E2B2CC201DCDB65600324CEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC1F1DCDB65600324CEA /* ViewController.m */; };
@@ -17,6 +21,11 @@
 		E2B2CC3E1DCDB65600324CEA /* Rumtime_MessageForwardingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC3D1DCDB65600324CEA /* Rumtime_MessageForwardingUITests.m */; };
 		E2B2CC4D1DCDB83600324CEA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC4C1DCDB83600324CEA /* Person.m */; };
 		E2B2CC501DCDBB3700324CEA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC4F1DCDBB3700324CEA /* Dog.m */; };
+		E2E0F1DC1E57DF9A00334B8F /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E0F1DB1E57DF9A00334B8F /* HomeTableViewController.m */; };
+		E2E0F1E01E57E1BB00334B8F /* MetaClassController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E0F1DF1E57E1BB00334B8F /* MetaClassController.m */; };
+		E2E0F2691E582FB700334B8F /* UIButton+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E0F2681E582FB700334B8F /* UIButton+Swizzling.m */; };
+		E2E0F26C1E582FC300334B8F /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E0F26B1E582FC300334B8F /* NSObject+Swizzling.m */; };
+		E2E0F26F1E582FD400334B8F /* NSMutableArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E0F26E1E582FD400334B8F /* NSMutableArray+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E223D68D1E58367300A26D6B /* UILabel+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Swizzling.h"; sourceTree = "<group>"; };
+		E223D68E1E58367300A26D6B /* UILabel+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Swizzling.m"; sourceTree = "<group>"; };
+		E223D6901E58381000A26D6B /* UINavigationItem+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Swizzling.h"; sourceTree = "<group>"; };
+		E223D6911E58381000A26D6B /* UINavigationItem+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Swizzling.m"; sourceTree = "<group>"; };
+		E223D6EF1E5A878900A26D6B /* ClassAndObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassAndObjectController.h; sourceTree = "<group>"; };
+		E223D6F01E5A878900A26D6B /* ClassAndObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassAndObjectController.m; sourceTree = "<group>"; };
+		E223D6F21E5A92A300A26D6B /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		E223D6F31E5A92A300A26D6B /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		E2B2CC151DCDB65600324CEA /* Rumtime-MessageForwarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumtime-MessageForwarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B2CC191DCDB65600324CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2B2CC1B1DCDB65600324CEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +74,16 @@
 		E2B2CC4C1DCDB83600324CEA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		E2B2CC4E1DCDBB3700324CEA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		E2B2CC4F1DCDBB3700324CEA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		E2E0F1DA1E57DF9A00334B8F /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		E2E0F1DB1E57DF9A00334B8F /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		E2E0F1DE1E57E1BB00334B8F /* MetaClassController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaClassController.h; sourceTree = "<group>"; };
+		E2E0F1DF1E57E1BB00334B8F /* MetaClassController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaClassController.m; sourceTree = "<group>"; };
+		E2E0F2671E582FB700334B8F /* UIButton+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Swizzling.h"; sourceTree = "<group>"; };
+		E2E0F2681E582FB700334B8F /* UIButton+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Swizzling.m"; sourceTree = "<group>"; };
+		E2E0F26A1E582FC300334B8F /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		E2E0F26B1E582FC300334B8F /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		E2E0F26D1E582FD400334B8F /* NSMutableArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzling.h"; sourceTree = "<group>"; };
+		E2E0F26E1E582FD400334B8F /* NSMutableArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +111,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E223D6ED1E5A83AB00A26D6B /* 南峰子 */ = {
+			isa = PBXGroup;
+			children = (
+				E223D6EE1E5A83B200A26D6B /* 1,类与对象 */,
+			);
+			name = "南峰子";
+			sourceTree = "<group>";
+		};
+		E223D6EE1E5A83B200A26D6B /* 1,类与对象 */ = {
+			isa = PBXGroup;
+			children = (
+				E223D6EF1E5A878900A26D6B /* ClassAndObjectController.h */,
+				E223D6F01E5A878900A26D6B /* ClassAndObjectController.m */,
+				E223D6F21E5A92A300A26D6B /* MyClass.h */,
+				E223D6F31E5A92A300A26D6B /* MyClass.m */,
+			);
+			name = "1,类与对象";
+			sourceTree = "<group>";
+		};
 		E2B2CC0C1DCDB65600324CEA = {
 			isa = PBXGroup;
 			children = (
@@ -107,14 +153,14 @@
 		E2B2CC171DCDB65600324CEA /* Rumtime-MessageForwarding */ = {
 			isa = PBXGroup;
 			children = (
-				E2B2CC4E1DCDBB3700324CEA /* Dog.h */,
-				E2B2CC4F1DCDBB3700324CEA /* Dog.m */,
-				E2B2CC4B1DCDB83600324CEA /* Person.h */,
-				E2B2CC4C1DCDB83600324CEA /* Person.m */,
+				E223D6ED1E5A83AB00A26D6B /* 南峰子 */,
+				E2E0F2661E582F8800334B8F /* Swizzling */,
+				E2E0F1DD1E57E19300334B8F /* MetaClass */,
+				E2E0F1D91E57DB5E00334B8F /* MessageForward */,
 				E2B2CC1B1DCDB65600324CEA /* AppDelegate.h */,
 				E2B2CC1C1DCDB65600324CEA /* AppDelegate.m */,
-				E2B2CC1E1DCDB65600324CEA /* ViewController.h */,
-				E2B2CC1F1DCDB65600324CEA /* ViewController.m */,
+				E2E0F1DA1E57DF9A00334B8F /* HomeTableViewController.h */,
+				E2E0F1DB1E57DF9A00334B8F /* HomeTableViewController.m */,
 				E2B2CC211DCDB65600324CEA /* Main.storyboard */,
 				E2B2CC241DCDB65600324CEA /* Assets.xcassets */,
 				E2B2CC261DCDB65600324CEA /* LaunchScreen.storyboard */,
@@ -148,6 +194,45 @@
 				E2B2CC3F1DCDB65600324CEA /* Info.plist */,
 			);
 			path = "Rumtime-MessageForwardingUITests";
+			sourceTree = "<group>";
+		};
+		E2E0F1D91E57DB5E00334B8F /* MessageForward */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2CC4E1DCDBB3700324CEA /* Dog.h */,
+				E2B2CC4F1DCDBB3700324CEA /* Dog.m */,
+				E2B2CC4B1DCDB83600324CEA /* Person.h */,
+				E2B2CC4C1DCDB83600324CEA /* Person.m */,
+				E2B2CC1E1DCDB65600324CEA /* ViewController.h */,
+				E2B2CC1F1DCDB65600324CEA /* ViewController.m */,
+			);
+			name = MessageForward;
+			sourceTree = "<group>";
+		};
+		E2E0F1DD1E57E19300334B8F /* MetaClass */ = {
+			isa = PBXGroup;
+			children = (
+				E2E0F1DE1E57E1BB00334B8F /* MetaClassController.h */,
+				E2E0F1DF1E57E1BB00334B8F /* MetaClassController.m */,
+			);
+			name = MetaClass;
+			sourceTree = "<group>";
+		};
+		E2E0F2661E582F8800334B8F /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				E2E0F26A1E582FC300334B8F /* NSObject+Swizzling.h */,
+				E2E0F26B1E582FC300334B8F /* NSObject+Swizzling.m */,
+				E2E0F26D1E582FD400334B8F /* NSMutableArray+Swizzling.h */,
+				E2E0F26E1E582FD400334B8F /* NSMutableArray+Swizzling.m */,
+				E2E0F2671E582FB700334B8F /* UIButton+Swizzling.h */,
+				E2E0F2681E582FB700334B8F /* UIButton+Swizzling.m */,
+				E223D68D1E58367300A26D6B /* UILabel+Swizzling.h */,
+				E223D68E1E58367300A26D6B /* UILabel+Swizzling.m */,
+				E223D6901E58381000A26D6B /* UINavigationItem+Swizzling.h */,
+				E223D6911E58381000A26D6B /* UINavigationItem+Swizzling.m */,
+			);
+			name = Swizzling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,11 +368,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E223D68F1E58367300A26D6B /* UILabel+Swizzling.m in Sources */,
+				E223D6F11E5A878900A26D6B /* ClassAndObjectController.m in Sources */,
 				E2B2CC201DCDB65600324CEA /* ViewController.m in Sources */,
 				E2B2CC1D1DCDB65600324CEA /* AppDelegate.m in Sources */,
 				E2B2CC501DCDBB3700324CEA /* Dog.m in Sources */,
+				E223D6921E58381000A26D6B /* UINavigationItem+Swizzling.m in Sources */,
+				E223D6F41E5A92A300A26D6B /* MyClass.m in Sources */,
 				E2B2CC4D1DCDB83600324CEA /* Person.m in Sources */,
+				E2E0F1DC1E57DF9A00334B8F /* HomeTableViewController.m in Sources */,
+				E2E0F2691E582FB700334B8F /* UIButton+Swizzling.m in Sources */,
+				E2E0F1E01E57E1BB00334B8F /* MetaClassController.m in Sources */,
+				E2E0F26C1E582FC300334B8F /* NSObject+Swizzling.m in Sources */,
 				E2B2CC1A1DCDB65600324CEA /* main.m in Sources */,
+				E2E0F26F1E582FD400334B8F /* NSMutableArray+Swizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +611,7 @@
 				E2B2CC441DCDB65600324CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B2CC451DCDB65600324CEA /* Build configuration list for PBXNativeTarget "Rumtime-MessageForwardingTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +620,7 @@
 				E2B2CC471DCDB65600324CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B2CC481DCDB65600324CEA /* Build configuration list for PBXNativeTarget "Rumtime-MessageForwardingUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +629,7 @@
 				E2B2CC4A1DCDB65600324CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
