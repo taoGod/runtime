@@ -26,24 +26,24 @@
 }
 
 - (void)methodAboutObject {
-    NSObject *a = [[NSObject alloc] init];
-    id newB = object_copy(a, class_getInstanceSize(MyClass.class));
-    object_setClass(newB, MyClass.class);
-    object_dispose(a);
-    
-    int numClasses;
-    Class * classes = NULL;
-    numClasses = objc_getClassList(NULL, 0);
-    if (numClasses > 0) {
-        classes = malloc(sizeof(Class) * numClasses);
-        numClasses = objc_getClassList(classes, numClasses);
-        NSLog(@"number of classes: %d", numClasses);
-        for (int i = 0; i < numClasses; i++) {
-            Class cls = classes[i];
-            NSLog(@"class name: %s", class_getName(cls));
-        }
-        free(classes);
-    }
+//    NSObject *a = [[NSObject alloc] init];
+//    id newB = object_copy(a, class_getInstanceSize(MyClass.class));
+//    object_setClass(newB, MyClass.class);
+//    object_dispose(a);
+//    
+//    int numClasses;
+//    Class * classes = NULL;
+//    numClasses = objc_getClassList(NULL, 0);
+//    if (numClasses > 0) {
+//        classes = malloc(sizeof(Class) * numClasses);
+//        numClasses = objc_getClassList(classes, numClasses);
+//        NSLog(@"number of classes: %d", numClasses);
+//        for (int i = 0; i < numClasses; i++) {
+//            Class cls = classes[i];
+//            NSLog(@"class name: %s", class_getName(cls));
+//        }
+//        free(classes);
+//    }
 }
 
 - (void)methodAboutClass {

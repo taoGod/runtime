@@ -11,6 +11,9 @@
 		E223D6921E58381000A26D6B /* UINavigationItem+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D6911E58381000A26D6B /* UINavigationItem+Swizzling.m */; };
 		E223D6F11E5A878900A26D6B /* ClassAndObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D6F01E5A878900A26D6B /* ClassAndObjectController.m */; };
 		E223D6F41E5A92A300A26D6B /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D6F31E5A92A300A26D6B /* MyClass.m */; };
+		E223D7381E5A9F1400A26D6B /* IvarAndPropertyController.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D7371E5A9F1400A26D6B /* IvarAndPropertyController.m */; };
+		E223D73B1E5AFB8300A26D6B /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E223D73A1E5AFB8300A26D6B /* MyObject.m */; };
+		E24F180B1E5BD8C900D4909E /* MethodAndMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F180A1E5BD8C900D4909E /* MethodAndMessageController.m */; };
 		E2B2CC1A1DCDB65600324CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC191DCDB65600324CEA /* main.m */; };
 		E2B2CC1D1DCDB65600324CEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC1C1DCDB65600324CEA /* AppDelegate.m */; };
 		E2B2CC201DCDB65600324CEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2CC1F1DCDB65600324CEA /* ViewController.m */; };
@@ -54,6 +57,12 @@
 		E223D6F01E5A878900A26D6B /* ClassAndObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassAndObjectController.m; sourceTree = "<group>"; };
 		E223D6F21E5A92A300A26D6B /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		E223D6F31E5A92A300A26D6B /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		E223D7361E5A9F1400A26D6B /* IvarAndPropertyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvarAndPropertyController.h; sourceTree = "<group>"; };
+		E223D7371E5A9F1400A26D6B /* IvarAndPropertyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IvarAndPropertyController.m; sourceTree = "<group>"; };
+		E223D7391E5AFB8300A26D6B /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		E223D73A1E5AFB8300A26D6B /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		E24F18091E5BD8C900D4909E /* MethodAndMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodAndMessageController.h; sourceTree = "<group>"; };
+		E24F180A1E5BD8C900D4909E /* MethodAndMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodAndMessageController.m; sourceTree = "<group>"; };
 		E2B2CC151DCDB65600324CEA /* Rumtime-MessageForwarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumtime-MessageForwarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B2CC191DCDB65600324CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2B2CC1B1DCDB65600324CEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +123,8 @@
 		E223D6ED1E5A83AB00A26D6B /* 南峰子 */ = {
 			isa = PBXGroup;
 			children = (
+				E24F18081E5BD88800D4909E /* 3,方法与消息 */,
+				E223D7351E5A9E6D00A26D6B /* 2,成员变量与属性 */,
 				E223D6EE1E5A83B200A26D6B /* 1,类与对象 */,
 			);
 			name = "南峰子";
@@ -128,6 +139,26 @@
 				E223D6F31E5A92A300A26D6B /* MyClass.m */,
 			);
 			name = "1,类与对象";
+			sourceTree = "<group>";
+		};
+		E223D7351E5A9E6D00A26D6B /* 2,成员变量与属性 */ = {
+			isa = PBXGroup;
+			children = (
+				E223D7361E5A9F1400A26D6B /* IvarAndPropertyController.h */,
+				E223D7371E5A9F1400A26D6B /* IvarAndPropertyController.m */,
+				E223D7391E5AFB8300A26D6B /* MyObject.h */,
+				E223D73A1E5AFB8300A26D6B /* MyObject.m */,
+			);
+			name = "2,成员变量与属性";
+			sourceTree = "<group>";
+		};
+		E24F18081E5BD88800D4909E /* 3,方法与消息 */ = {
+			isa = PBXGroup;
+			children = (
+				E24F18091E5BD8C900D4909E /* MethodAndMessageController.h */,
+				E24F180A1E5BD8C900D4909E /* MethodAndMessageController.m */,
+			);
+			name = "3,方法与消息";
 			sourceTree = "<group>";
 		};
 		E2B2CC0C1DCDB65600324CEA = {
@@ -370,14 +401,17 @@
 			files = (
 				E223D68F1E58367300A26D6B /* UILabel+Swizzling.m in Sources */,
 				E223D6F11E5A878900A26D6B /* ClassAndObjectController.m in Sources */,
+				E223D73B1E5AFB8300A26D6B /* MyObject.m in Sources */,
 				E2B2CC201DCDB65600324CEA /* ViewController.m in Sources */,
 				E2B2CC1D1DCDB65600324CEA /* AppDelegate.m in Sources */,
 				E2B2CC501DCDBB3700324CEA /* Dog.m in Sources */,
 				E223D6921E58381000A26D6B /* UINavigationItem+Swizzling.m in Sources */,
 				E223D6F41E5A92A300A26D6B /* MyClass.m in Sources */,
+				E24F180B1E5BD8C900D4909E /* MethodAndMessageController.m in Sources */,
 				E2B2CC4D1DCDB83600324CEA /* Person.m in Sources */,
 				E2E0F1DC1E57DF9A00334B8F /* HomeTableViewController.m in Sources */,
 				E2E0F2691E582FB700334B8F /* UIButton+Swizzling.m in Sources */,
+				E223D7381E5A9F1400A26D6B /* IvarAndPropertyController.m in Sources */,
 				E2E0F1E01E57E1BB00334B8F /* MetaClassController.m in Sources */,
 				E2E0F26C1E582FC300334B8F /* NSObject+Swizzling.m in Sources */,
 				E2B2CC1A1DCDB65600324CEA /* main.m in Sources */,
@@ -528,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Rumtime-MessageForwarding/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "juliu.Rumtime-MessageForwarding";
@@ -539,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Rumtime-MessageForwarding/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "juliu.Rumtime-MessageForwarding";

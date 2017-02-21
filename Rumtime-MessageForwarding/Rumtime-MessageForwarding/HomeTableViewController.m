@@ -39,7 +39,17 @@
             vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ViewController"];
             break;
         case 1:
-            vc = [[MetaClassController alloc] init];
+//            vc = [[MetaClassController alloc] init];
+            vc = [self viewControllerWithName:@"MetaClassController"];
+            break;
+        case 2:
+            vc = [self viewControllerWithName:@"ClassAndObjectController"];
+            break;
+        case 3:
+            vc = [self viewControllerWithName:@"IvarAndPropertyController"];
+            break;
+        case 4:
+            vc = [self viewControllerWithName:@"MethodAndMessageController"];
             break;
         default:
             break;
@@ -49,6 +59,9 @@
     }
 }
 
-
+- (UIViewController *)viewControllerWithName:(NSString *)name {
+    Class cls = NSClassFromString(name);
+    return [[cls alloc] init];
+}
 
 @end
